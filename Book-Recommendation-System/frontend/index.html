@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blob blob-1"></div>
+    <div class="background-blob blob-2"></div>
+    
+    <main class="container">
+        <header class="header">
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>Tell us a book you love, and we'll find what you should read next.</p>
+        </header>
+
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for a book..." autocomplete="off">
+                <button id="searchButton">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+            <div id="autocompleteDropdown" class="autocomplete-dropdown hidden"></div>
+        </section>
+
+        <section id="loadingSection" class="loading-section hidden">
+            <div class="spinner"></div>
+            <p>Finding the perfect books for you...</p>
+        </section>
+
+        <section id="resultsSection" class="results-section hidden">
+            <h2>We think you'll love these:</h2>
+            <div id="recommendationsGrid" class="recommendations-grid">
+                <!-- Cards will be injected here via JS -->
+            </div>
+        </section>
+        
+        <section id="errorSection" class="error-section hidden">
+            <p id="errorMessage"></p>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
