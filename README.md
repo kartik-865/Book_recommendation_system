@@ -64,10 +64,6 @@ Book_recommendation_system/
 
 ---
 
-## Dataset
-
-The dataset used to build and train the recommendation model is sourced from Kaggle and contains metadata for thousands of books listed on Goodreads.
-
 **Dataset**: [Goodreads Books Dataset on Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)
 
 Key columns used by the system include:
@@ -120,7 +116,3 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 See the [LICENSE](./LICENSE) file for full details.
 
 ---
-
----
-
-*Developed by Kartik Gahlot. For questions or collaboration, please open an issue on this repository.*
