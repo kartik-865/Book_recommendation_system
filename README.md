@@ -28,7 +28,7 @@ It contains metadata (Title, Author, Genres, Rating, etc.) for thousands of Good
 1. Open your Anaconda Prompt (or any Python terminal).
 2. Navigate to the `backend` directory:
    ```bash
-   cd Book-Recommendation-System/backend
+   cd backend
    ```
 3. Install the required Python packages:
    ```bash
@@ -42,13 +42,13 @@ It contains metadata (Title, Author, Genres, Rating, etc.) for thousands of Good
 
 ### 2. View the Frontend
 There is no complex frontend build step required! 
-Simply go to the `Book-Recommendation-System/frontend` folder and double-click the **`index.html`** file to open it in your web browser. You can immediately start searching for books and viewing recommendations.
+Simply go to the `frontend` folder and double-click the **`index.html`** file to open it in your web browser. You can immediately start searching for books and viewing recommendations.
 
 ### 3. Generate Evaluation Metrics
 To see how well the recommendation engine is performing across the catalog, you can run the evaluation script:
 1. In your Anaconda Prompt, navigate to the `backend` directory:
    ```bash
-   cd Book-Recommendation-System/backend
+   cd backend
    ```
 2. Run the evaluation script:
    ```bash
@@ -59,4 +59,4 @@ To see how well the recommendation engine is performing across the catalog, you 
    - `evaluation_metrics.png`: A beautiful bar chart visualizing the model's Diversity, Coverage, Personalization, and Novelty.
 
 ## 📓 Jupyter Notebooks
-If you want to explore the data preprocessing steps and the logic behind the recommendation algorithm step-by-step, you can open the `Book-Recommender-System-Content-Based.ipynb` file inside the `Book-Recommendation-System` folder using Jupyter Notebook or JupyterLab.
+If you want to explore the data preprocessing steps and the logic behind the recommendation algorithm step-by-step, you can open the `Book-Recommender-System-Content-Based.ipynb` file in the root folder using Jupyter Notebook or JupyterLab.
