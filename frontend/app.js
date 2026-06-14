@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://book-recommendation-system-1rgv.onrender.com';
 
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
