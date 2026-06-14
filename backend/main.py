@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 print("Loading data...")
-csv_path = os.path.join(os.path.dirname(__file__), '..', 'Goodreads_books_with_genres.csv')
+csv_path = os.path.join(os.path.dirname(__file__), 'Goodreads_books_with_genres.csv')
 books = pd.read_csv(csv_path)
 books.dropna(inplace=True)
 
