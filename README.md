@@ -1,6 +1,7 @@
 # Book Recommendation System
 
 Deployment link : https://book-recommendation-system-six-theta.vercel.app/
+
 A content-based book recommendation system that helps users discover their next read. The system analyzes book metadata using Natural Language Processing techniques to compute similarity between titles and surface relevant recommendations through a clean, interactive web interface backed by a FastAPI server.
 
 ---
