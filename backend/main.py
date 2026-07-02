@@ -1,10 +1,10 @@
-import numpy as np # type: ignore
-import pandas as pd # type: ignore
-from fastapi import FastAPI, Query # type: ignore
-from fastapi.middleware.cors import CORSMiddleware # type: ignore
-from sklearn.feature_extraction.text import CountVectorizer # type: ignore
-from sklearn.metrics.pairwise import cosine_similarity # type: ignore
-import uvicorn # type: ignore
+import numpy as np
+import pandas as pd
+from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware 
+from sklearn.feature_extraction.text import CountVectorizer 
+from sklearn.metrics.pairwise import cosine_similarity 
+import uvicorn 
 import os
 
 app = FastAPI()
